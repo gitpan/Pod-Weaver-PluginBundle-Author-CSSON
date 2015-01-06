@@ -1,0 +1,33 @@
+---
+abstract: 'Weave Pod like CSSON'
+author:
+  - 'Erik Carlsson <info@code301.com>'
+build_requires:
+  Test::More: '0.96'
+  Test::NoTabs: '0'
+configure_requires:
+  Module::Build::Tiny: '0.039'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Pod-Weaver-PluginBundle-Author-CSSON
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+requires:
+  Path::Tiny: '0'
+  Pod::Weaver: '0'
+  perl: '5.010001'
+resources:
+  bugtracker: https://github.com/Csson/p5-Pod-Weaver-PluginBundle-Author-CSSON/issues
+  homepage: https://metacpan.org/release/Pod-Weaver-PluginBundle-Author-CSSON
+  repository: https://github.com/Csson/p5-Pod-Weaver-PluginBundle-Author-CSSON.git
+version: '0.1000'

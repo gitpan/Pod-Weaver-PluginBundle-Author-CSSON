@@ -1,0 +1,69 @@
+{
+   "abstract" : "Weave Pod like CSSON",
+   "author" : [
+      "Erik Carlsson <info@code301.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Pod-Weaver-PluginBundle-Author-CSSON",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::EOF" : "0",
+            "Test::EOL" : "0",
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Path::Tiny" : "0",
+            "Pod::Weaver" : "0",
+            "perl" : "5.010001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.96",
+            "Test::NoTabs" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Pod-Weaver-PluginBundle-Author-CSSON/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Pod-Weaver-PluginBundle-Author-CSSON",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Pod-Weaver-PluginBundle-Author-CSSON.git",
+         "web" : "https://github.com/Csson/p5-Pod-Weaver-PluginBundle-Author-CSSON"
+      }
+   },
+   "version" : "0.1000"
+}
+
