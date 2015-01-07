@@ -4,7 +4,7 @@ use warnings;
 
 package Pod::Weaver::PluginBundle::Author::CSSON;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1100'; # VERSION
 
 use strict;
 use warnings;
@@ -85,7 +85,7 @@ Pod::Weaver::PluginBundle::Author::CSSON - Weave Pod like CSSON
 
 =head1 VERSION
 
-Version 0.1000, released 2015-01-07.
+Version 0.1100, released 2015-01-07.
 
 =head1 SOURCE
 

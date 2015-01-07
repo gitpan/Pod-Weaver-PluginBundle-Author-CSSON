@@ -1,5 +1,9 @@
 Revision history for Pod-Weaver-PluginBundle-Author-CSSON
 
+0.1100 2015-01-07T21:55:10Z CET
+ [Enhancements]
+ - Expand Dist Zilla bundle before release.
+
 0.1000 2015-01-07T00:11:01Z CET
  - Initial release
 
